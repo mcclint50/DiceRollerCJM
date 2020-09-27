@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author:  Colin McClintic
+    Class:   Software Engineering
+    Description: Simple dice roller application
+-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Monopoly Dice Roller</title>
+        <link rel="stylesheet" href="diceroller.css">
+        <script scr="diceroller.js"></script>
+    </head>
+    <body>
+        <h1>Monopoly Dice Roller</h1>
+        <hr>
+        <p>Click the Roll Dice button or press enter to roll!</p>
+        <button type="button" onclick="RollDice()" autofocus></button>
+        <br>
+        <br>
+        <br>
+        First die: <input id="d1" type="text" value="5" disabled>
+        <br>
+        Second die: <input id="d2" type="text" value="5" disabled>
+        <br>
+        <h3 id="doubles"></h3>
+        <br>
+        <br>
+        You rolled: <input id="result" type="text" value="5" disabled>
+    </body>
