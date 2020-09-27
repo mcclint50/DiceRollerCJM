@@ -7,11 +7,6 @@ h1 {
 }
 p {
     font-family: Impact, Charcoal, sans-serif;
-    border-style: dashed;
-    border-width: 2px;
-    border-color: red;
-    border-radius: 8px;
-    border-spacing: 3px;
 }
 input {
     text-align: right;
